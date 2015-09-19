@@ -33,12 +33,12 @@ namespace SqlDataMapper.Tests
         public void TestMethod1()
         {
             //Database.BeginTransaction();
-            var list = Database.Fetch<TestClass>("");
+            var list = Database.Fetch<TestTable>("");
             //Database.CompleteTransaction();
         }
 
 
-        public class TestClass
+        public class TestTable
         {
             public int ID { get; set; }
 
