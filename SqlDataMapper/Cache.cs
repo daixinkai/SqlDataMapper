@@ -12,7 +12,7 @@ namespace SqlDataMapper
         public int Count
         {
             get
-            {
+            { 
                 return _map.Count;
             }
         }
